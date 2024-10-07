@@ -63,6 +63,9 @@ main {
 main > h2 {
     color: white;
     margin: 0px 20px 90px;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.164));
 }
 
 main > p {
@@ -91,7 +94,7 @@ main > div > a:hover {
 }
 
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 640px) {
     body {
         background-position: right;
     }
@@ -111,7 +114,11 @@ main > div > a:hover {
     }
 
     main {
-        margin-top: 250px;
+        margin-top: 130px;
         width: 300px;
+    }
+
+    main > h2 {
+        margin: 0px 3px 175px;
     }
 }
